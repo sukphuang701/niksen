@@ -1,0 +1,116 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.none{
+  color: #726f6e;
+}
+
+.none1{
+  color: #F4890B;
+}
+
+.card-fallback1{
+  background-color: #fed1ca; /* สีสำรอง */
+}
+
+.card-fallback2{
+  background-color: #D1D1AA; /* สีสำรอง */
+}
+
+.card-fallback3{
+  background-color: #32462F; /* สีสำรอง */
+}
+
+.white{
+  background-color: #FFFFFF;
+}
+
+.left {
+  flex: 1;
+  background: url('coffee.jpg') center/cover no-repeat;
+}
+
+.right {
+  flex: 1;
+  background: #fbf5ed;
+  padding: 50px;
+}
+
+ิ.lalala {
+ border-left: none;
+ margin-left: 0;
+ padding-left: 0;
+border-right: none;
+ margin-right: 0;
+ padding-right: 0;
+}
+
+.ui {
+  text-decoration: none;  /* ไม่มีขีดเส้นใต้ */
+  color: black;           /* สีปกติ */
+  font-weight: bold;      /* ตัวหนา */
+  transition: color 0.3s; /* ทำให้เปลี่ยนสีลื่น ๆ */
+}
+
+.ui:hover {
+  color: #f38c05;         /* สีตอนเอาเมาส์จ่อ */
+}
+
+.my-link2 {
+  text-decoration: none;  /* ไม่มีขีดเส้นใต้ */
+  color: rgb(255, 255, 255);           /* สีปกติ */
+  font-weight: bold;      /* ตัวหนา */
+  transition: color 0.3s; /* ทำให้เปลี่ยนสีลื่น ๆ */
+}
+
+.my-link2:hover {
+  color: #016924;         /* สีตอนเอาเมาส์จ่อ */
+}
+
+.ct {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.center-text {
+      display: flex;
+      justify-content: center; /* กึ่งกลางแนวนอน */
+      align-items: center;     /* กึ่งกลางแนวตั้ง */
+      height: 100%;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+body {
+      font-family: 'Kanit', sans-serif; /* ใช้ฟอนต์ Kanit จาก Google */
+      font-weight: 400;
+    }
+
+footer {
+      background-color: #fed1ca; 
+}
+
+/* สไตล์ปุ่มลอย */
+    .floating-button {
+      position: fixed;          /* ให้ลอยอยู่กับที่ */
+      bottom: 20px;             /* ห่างจากขอบล่าง */
+      right: 20px;              /* ห่างจากขอบขวา */
+      background-color: #007bff; /* สีปุ่ม */
+      color: white;             /* สีตัวอักษร */
+      padding: 15px 25px;       /* ขนาดปุ่ม */
+      border: none;
+      border-radius: 30px;      /* ทำให้ปุ่มกลมมน */
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* เงา */
+      transition: 0.3s;         /* ทำให้ hover ลื่น */
+    }
+
+    .floating-button:hover {
+      background-color: #0056b3; /* เปลี่ยนสีตอน hover */
+    }
+
