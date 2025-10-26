@@ -114,3 +114,24 @@ footer {
       background-color: #0056b3; /* เปลี่ยนสีตอน hover */
     }
 
+/* เปลี่ยนสีพื้นหลังของแถบหัวข้อ accordion */
+.accordion-button {
+  background-color: #FED1CA; /* สีเขียวเทอร์ควอยซ์ */
+  color: #000000;            /* สีตัวอักษร */
+  font-weight: bold;
+  border: none;
+}
+
+/* เมื่อแถบถูกเปิด (active) */
+.accordion-button:not(.collapsed) {
+  background-color: #FED1CA; /* สีเขียวเข้มเมื่อเปิด */
+  color: #000000;
+  box-shadow: none;
+}
+
+/* ปรับสีขอบของ accordion item */
+.accordion-item {
+  border: 1px solid #FED1CA;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
